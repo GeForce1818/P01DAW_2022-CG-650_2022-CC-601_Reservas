@@ -11,12 +11,12 @@ namespace P01_2022_CG_650_2022_CC_601.Controllers
     [ApiController]
 
 
-    public class reservaController : ControllerBase
+    public class ParqueoController : ControllerBase
     {
 
         private readonly ParqueoContext _ParqueoContext;
 
-        public reservaController(ParqueoContext parqueoContext)
+        public ParqueoController(ParqueoContext parqueoContext)
         {
             _ParqueoContext = parqueoContext;
         }
