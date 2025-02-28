@@ -8,6 +8,8 @@ namespace P01_2022_CG_650_2022_CC_601.Models
         public int? idespacio { get; set; }
         public int? idsucursal { get; set; }
         public DateOnly fecha { get; set; }
+        public string hora { get; set; }
+        public int cantidad_de_horas { get; set; }
 
     }
 }
